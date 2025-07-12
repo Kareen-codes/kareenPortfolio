@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="/index.css" rel="stylesheet">
+        <link href="/responsive.css" rel="stylesheet">
+         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+       
+</head>
+<body> 
+    <div class="container">
+        <div class="heading">
+            <p ><span id="name">Anyadike</span> Kareen</p>
+        <div class="navbar">
+             
+     
+            <ul class="menu">
+                <li class="hideOnMobile"><a href="#home">Home</a></li>
+                <li class="hideOnMobile"><a href="#projects">Projects</a></li>
+                <li class="hideOnMobile"><a href="#about">About</a></li>
+            </ul>
+         
+         <img class="sideButton . showOnMobile"  onclick="showsidebar();"src="image/menu burger.svg">
+          
+        </div>
+              
+             
+
+        <div class="sidebar">
+            <img class="sideCloseButton" onclick="closesidebar()" src="image/X.svg">
+          
+           
+            
+           <ul class="menu sideMenu">
+                
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+            </div>
+        </div>
+
+
+        <div id="home" class="homePage">
+            <div class="homeTitle">  <p class="greeting"><span style="color: purple; font-weight: bold">Hey</span>, I'm Kareen✌🏽</p>
+            <img src="/image/ProfilePic.jpeg">
+        </div>
+          
+            <h1><span id="element" style="color: purple; font-weight: bold">Front</span>end Developer</h1>
+            <p class="text">I'm a frontend developer based in Nigeria. I'll help build beautiful websites your users will love. </p>
+            <p class="text">I build fast, responsive, and user-friendly websites with clean code and pixel-perfect design.</p>
+             <p class="text">From concept to launch, I turn ideas into interactive experiences using HTML, CSS, JavaScript, and modern frameworks like React.</p>
+
+<p class="text">📌 Let's create something amazing together.</p>
+
+            <div class="button">
+                <button class="contact"><a href="mailto:k.abasketballstar@gmail.com">Get In Touch</a></button>
+                
+                <button><a href="/My_CV.docx" style="color: cyan;" download>Download CV</a></button>
+            </div>
+        </div>
+
+   <h1 id="projects"><span style="color: purple; font-weight: bold">My</span> Projects</h1>
+
+<div  class="projectsPage">
+ 
+    <div class="project">
+        <img src="/image/snake and ladder.jpeg">
+        <h3 class="projectName" id="product1">Snake and Ladder Game</h3>
+        <p class="rate">💛💛💛💛💛  <span>13K users</span></p>
+        <p class="description">Get website template for Snake and Ladder game.</p>
+        <button onclick="addToCart('product1');">Price . $15</button>
+    </div>
+      <div class="project">
+        <img src="/image/foodWebsite.jpeg">
+        <h3 class="projectName" id="product2">Food Website</h3>
+        <p class="rate">💛💛💛💛💛   <span>16K users</span></p>
+        <p class="description">Easy to use and modify food website template.</p>
+        <button onclick="addToCart('product2');">Price . $13</button>
+    </div>
+       <div class="project">
+        <img src="/image/socialMedia.jpeg">
+        <h3 class="projectName" id="product3">Social Media Platform</h3>
+        <p class="rate">💛💛💛💛   <span>5K users</span></p>
+        <p class="description">Easy to use and modify social media website template.</p>
+        <button onclick="addToCart('product3');">Price . $17</button>
+    </div>
+
+    <div class="project">
+        <img src="/image/gambling.jpeg">
+        <h3 class="projectName" id="product4">Gambling Website</h3>
+        <p class="rate">💛💛💛💛💛   <span>50K users</span></p>
+        <p class="description">Get website template at a one off 25% discount</p>
+        <button onclick="addToCart('product4');">Price . $10</button>
+    </div>
+</div>
+
+<h1 id="about"><span style="color: purple; font-weight: bold">About</span> Me</h1>
+
+<div class="aboutPage">
+    <div class="aboutMe">
+       
+           <H3>Hi! I am <span style="color: purple; font-weight: bold">Anyadike</span> Kareen. </H3>
+
+           <p>I don’t just build apps—we craft digital experiences that fit in your pocket and stick in your memory.</p>
+
+<p>I and my passionate team of mobile architects, designers, and dreamers are driven by one goal: to make people’s lives easier, smarter, and a little more magical—one tap at a time.</p>
+    </div>
+
+    <div class="aboutMe"> <h3>📱What Drives Me</h3>
+<p>Every app starts with a why. Whether it's solving real-world problems, simplifying daily routines, or turning a creative spark into a digital product, I believe every line of code should have a purpose.</p></div>
+
+<div class="aboutMe">
+    <h3>📱 What I Do</h3>
+<p>I design and develop iOS and Android apps that go beyond functionality—they inspire, engage, and retain. From MVPs to full-scale launches, we build products that scale with your vision.</p>
+</div>
+
+
+<div class="aboutMe">
+    <h3>📱We specialize in:</h3>
+<ul>
+    <li>Native & cross-platform development (Flutter, React Native)</li>
+    <li>UI/UX that converts users into fans</li>
+    <li>
+Backend solutions & APIs that keep everything running like magic</li>
+</ul>
+</div>
+
+
+<div class="footerPage">
+     <div class="social" >
+            <a target="_new" href="https://www.linkedin.com"><i class="bx bxl-linkedin"></i></a>
+            <a target="_new" href="https://www.github.com"><i class="bx bxl-github"></i></a>
+            <a target="_new" href="https://www.facebook.com"><i class="bx bxl-facebook"></i></a>
+            <a target="_new" href="https://www.instagram.com"><i class="bx bxl-instagram"></i></a>
+    </div>
+    <p class="copyright">&copy; <span style="color: cyan; font-weight: bold">Anyadike</span> Kareen - All Rights Reserved</p>
+    
+</div>
+</div>
+
+
+
+
+<script src="index.js"></script>
+ <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</body>
+</html>
+
+
+
+
