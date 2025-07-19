@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link href="css/signup.css" rel="stylesheet">
+        <link href="css/signResponsive.css" rel="stylesheet">
+</head>
+<body>
+   <div class="container">
+     <img src="image/loginImage.jpg" class="sideImg">
+
+     <div class="formContainer">
+
+      <form onsubmit="return false;">
+
+        <h1 class="title">Sign In</h1>
+
+        <div class="messageDiv" id="signInMessage" style="display:none;"></div>
+
+
+           
+
+      <div class="formInput">
+    
+        
+        <i class='bx  bx-envelope-open'  style="color: black;"></i> 
+        <input type="email" id="Email" name="Email" placeholder="Email">
+         <label for="Email" class="floatingLabel">Email</label>
+      </div> 
+        
+
+       
+
+      <div class="formInput formP">
+        
+        <i class='bx  bx-lock'  style='color:#000000'></i> 
+         <input type="password" id="passW" name="passW" placeholder="Password">
+          <label for="passW" class="floatingLabel">Password</label>
+      </div>
+
+      <p class="forgotText"><a class="forgot" href="#">Forgot password?</a></p>
+      
+        <input type="button" id="signInBtn" class="LogBtn" value="Sign In">
+
+   </form>
+
+
+   <div class="lineWrapper">
+  <div class="line">____________</div>
+  <span class="orText">or</span>
+  <div class="line">____________</div>
+</div>
+
+      
+     <div class="social">
+       <a target="_new" href="https://www.google.com"><i class="bx bxl-google"></i></a>
+       <a target="_new" href="https://www.facebook.com"><i class="bx bxl-facebook"></i></a>
+     </div>
+
+ 
+    <p class="noAccount">Don't have account yet? <span class="loginLink"><a href="/signup.html">Sign Up</a></span></p>
+     </div>
+   </div>
+
+ <script type="module" src="js/firebaseauth.js"></script>
+ <script src="js/signup.js"></script>
+</body>
+</html>

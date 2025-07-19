@@ -1,0 +1,135 @@
+@media (max-width: 500px){
+    
+
+.container {
+  width: 100%;
+  height: auto;
+  margin-top: 5vh;
+}
+
+
+h1.title {
+  font-size: 16pt;
+}
+
+.LogBtn {
+  padding: 5px 10px;
+  font-size: 12pt;
+  margin-bottom: 1rem;
+}
+
+.forgot {
+  font-size: 10pt;
+}
+
+
+ .noAccount {
+  font-size: 11pt;
+}
+
+div.social a {
+  width: 50px;
+  height: 40px;
+  font-size: 18px;
+}
+
+.formInput {
+  margin-top: 1rem;
+}
+
+input:focus + .floatingLabel,
+input:not(:placeholder-shown) + .floatingLabel {
+  font-size: 0.75rem;
+}
+
+}
+@media (max-width: 617px) {
+   
+  .orText {
+    font-size: 8pt;
+    padding: 0 0.5rem;
+
+  
+}
+.lineWrapper .line{
+     font-size: 8pt;
+}
+
+.lineWrapper{
+    
+      margin-top: -0.5rem;
+  margin-bottom: 1rem;
+}
+.noAccount{
+    font-size: 8pt;
+}
+
+
+
+}
+/* Medium small devices (max-width: 700px) */
+
+@media (max-width: 700px) {
+  .container {
+    width: 85%;
+  }
+
+  .formContainer {
+    margin-top: 0;
+  }
+
+  .sideImg {
+    height: 50%;
+  }
+
+  .noAccount {
+    font-size: 12pt;
+  }
+
+  .LogBtn {
+    font-size: 13pt;
+  }
+}
+
+/* Tablets (max-width: 991px) */
+
+@media (max-width: 991px) {
+  .container {
+    width: 70%;
+    grid-template-columns: 1fr;
+    height: auto;
+  }
+
+  h1.title {
+    font-size: 22pt;
+  }
+
+  .LogBtn {
+    font-size: 14pt;
+  }
+
+  .noAccount {
+    font-size: 14pt;
+  }
+
+  .floatingLabel {
+    font-size: 0.8rem;
+  }
+}
+
+/* Small desktops (max-width: 1200px) */
+
+@media (max-width: 1200px) {
+  div.social {
+    margin-top: 2rem;
+    gap: 2rem;
+  }
+
+
+  .LogBtn {
+    margin-bottom: 2rem;
+  }
+ 
+
+
+}

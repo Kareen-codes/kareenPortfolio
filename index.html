@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="index.css" rel="stylesheet">
-        <link href="responsive.css" rel="stylesheet">
+    <title>Welcome to My Page!</title>
+    <link href="css/index.css" rel="stylesheet">
+        <link href="css/responsive.css" rel="stylesheet">
          <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
        
 </head>
@@ -20,6 +20,7 @@
                 <li class="hideOnMobile"><a href="#home">Home</a></li>
                 <li class="hideOnMobile"><a href="#projects">Projects</a></li>
                 <li class="hideOnMobile"><a href="#about">About</a></li>
+                <li class="hideOnMobile userSignInBtn"><p><a href="Signup.html">Sign Up</a></p></li>
             </ul>
          
          <img class="sideButton . showOnMobile"  onclick="showsidebar();"src="image/menu burger.svg">
@@ -38,13 +39,14 @@
                 <li><a href="#home">Home</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#about">About</a></li>
+                <li><a href="Signup.html">Sign Up</a></li>
             </ul>
             </div>
         </div>
 
 
         <div id="home" class="homePage">
-            <div class="homeTitle">  <p class="greeting"><span style="color: purple; font-weight: bold">Hey</span>, I'm Kareen✌🏽</p>
+            <div class="homeTitle">  <p class="greeting">Hey <span style="color: purple; font-weight: bold" id="userName"></span>, I'm Kareen✌🏽</p>
             <img src="/image/ProfilePic.jpeg">
         </div>
           
@@ -144,8 +146,10 @@ Backend solutions & APIs that keep everything running like magic</li>
 
 
 
-<script src="index.js"></script>
+<script src="js/index.js"></script>
  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+ <script src="js/userHomePage.js" type="module"></script>
+
 </body>
 </html>
 

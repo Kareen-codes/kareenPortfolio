@@ -1,0 +1,230 @@
+.messageDiv { 
+    background-color: hsl(327, 90%, 28%);
+    color: white;
+    padding: 10px 20px; 
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out; 
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+ background-color:#2f3d66;
+  width: 100%;
+    height: 100vh;
+}
+
+.container{
+    margin: auto;
+    margin-top: 10vh;
+   width: 45%;
+    height: 83vh;
+   border-radius: 10px;
+   background-color: white;
+   box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+   
+    display: grid;
+   grid-template-columns: minmax(100px, 200px) 1fr;
+}
+
+.signUpcontainer{
+  height: 100vh;
+  z-index: 999;
+    margin-top: 4vh;
+}
+.sideImg{
+   border-top-left-radius: 10px;
+   border-bottom-left-radius: 10px;
+  width: 100%; 
+  height: 100%;  
+  object-fit: cover; 
+
+}
+
+.formContainer{
+    width: 100%;
+    height: 100%;
+    padding: 3rem 2rem;
+
+  max-width: 400px;
+
+  margin: auto;
+}
+
+h1.title{
+text-align: center;
+}
+
+.formInput{
+    position: relative;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  vertical-align: center;
+    margin-top: 1rem;
+   
+}
+.floatingLabel {
+  position: absolute;
+  top: 0%;
+  left: 23px;
+  transform: translateY(-50%);
+  transition: 0.3s;
+  color: purple;
+  pointer-events: none;
+  opacity: 0;
+}
+
+input:focus + .floatingLabel,
+input:not(:placeholder-shown) + .floatingLabel {
+  top: -8px;
+  font-size: 0.8rem;
+  color: purple;
+  opacity: 1;
+}
+
+.formInput Input{
+     border: none;
+    border-bottom: 2px solid purple;
+    outline: none;
+    padding: 10px 0px;
+    width: 100%;
+
+}
+
+.bx-envelope-open, .bx-lock, .bx-user{
+
+  font-size: 14pt;
+    font-weight: bold;
+}
+.formP{
+    padding-bottom: 2rem;
+}
+
+p.forgotText{
+ text-align: right;
+}
+.forgot{
+ 
+ 
+  text-decoration: none;
+  color: purple;
+  font-size: 11pt;
+  transition: 0.3s ease;
+}
+
+.forgot:hover{
+   color: rgb(120, 119, 119);
+    font-weight: bold;
+   
+}
+
+
+.LogBtn{
+    padding: 10px 15px;
+    background-color: purple;
+    border:none;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 14pt;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+   transition: 0.3s ease;
+   margin-top: 1rem;
+}
+.LogBtn:hover{
+    background-color: rgb(120, 119, 119);
+    color: purple;
+    
+}
+.lineWrapper {
+  display: flex;
+  align-items:center;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.lineWrapper .line {
+  flex: 1;
+  height: 1px;
+  background-color: #ccc;
+}
+
+.lineWrapper .orText {
+  padding: 0 1rem;
+  font-size: 14pt;
+  color: #555;
+  white-space: nowrap;
+}
+
+
+
+div.social{
+  
+    margin: 1rem auto 0 auto;
+  justify-content: center;
+  gap: 1.5rem;
+    display: flex;
+    flex-direction: row;
+
+   
+    align-items: center;
+   
+}
+
+div.social a{
+     text-align: center;
+      background-color: white;
+    font-size: 25px;
+    color: blue;
+    border: 2px solid purple;
+    width: 70px;
+    height: 60px;
+     box-shadow: 0px 0px 15px rgba(87, 4, 83, 0.4);
+   
+    display: inline-block;
+    text-align: center;
+    border-radius: 15px;
+    padding: 10px;
+    transition: 0.3s ease;
+}
+
+div.social a:hover{
+    background: rgb(120, 119, 119);
+    color: purple;
+    
+}
+.loginLink a{
+     text-decoration: none;
+  color: purple;
+
+  display: inline-block; 
+  transition: all 0.3s ease;
+  padding-left: 2rem;
+
+}
+.loginLink a:hover{
+    transform: scale(1.02);
+    
+}
+.loginLink a:active{
+    color: rgb(120, 119, 119);
+    font-weight: bold;
+}
+
+.noAccount{
+    padding-top: 2rem;
+    font-weight: bold;
+    font-size: 14pt;
+
+}

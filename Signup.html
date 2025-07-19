@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link href="css/signup.css" rel="stylesheet">
+        <link href="css/signResponsive.css" rel="stylesheet">
+</head>
+<body>
+
+  <div class="container signUpcontainer">
+     <img src="image/loginImage.jpg" class="sideImg">
+
+   <div class="formContainer ">
+     <form onsubmit="return false;">
+    <h1 class="title">Register</h1>
+    <div class="messageDiv" id="signUpMessage" style="display:none;">
+
+    </div>
+
+
+   <div class="formInput">
+    <i class='bx  bx-user'  style='color:#000000'></i> 
+    <input type="text" id="fname" name="fname" placeholder="First Name">
+     <label for="fname" class="floatingLabel">First Name</label>
+  </div>
+
+    <div class="formInput">
+      <i class='bx  bx-user'  style='color:#000000'></i> 
+      <input type="text" id="lname" placeholder="Last Name" name="lname">
+       <label for="lname" class="floatingLabel">Last Name</label>
+    </div>
+    
+    <div class="formInput">
+      <i class='bx  bx-envelope-open'  style="color: black;"></i> 
+      <input type="email" id="rEmail" placeholder="Email" name="rEmail">
+       <label for="rEmail" class="floatingLabel">Email</label>
+    </div>
+
+    <div class="formInput formP">
+        <i class='bx  bx-lock'  style='color:#000000'></i> 
+      <input type="password" id="passwrd" name="passwrd" placeholder="Password">
+       <label for="passwrd" class="floatingLabel">Password</label>
+    </div>
+
+    <input type="button" id="signUpBtn" value="Sign Up" name="signUp" class="LogBtn" >
+  </form>
+
+     
+   <div class="lineWrapper">
+  <div class="line">____________</div>
+  <span class="orText">or</span>
+  <div class="line">____________</div>
+</div>
+
+
+       <div class="social">
+          <a target="_new" href="https://www.google.com"><i class="bx bxl-google"></i></a>
+
+       <a target="_new" href="https://www.facebook.com"><i class="bx bxl-facebook"></i></a>
+       </div>
+
+     <p class="noAccount">Already Have an Account? <span class="loginLink"><a href="/signIn.html">Sign In</a></span></p>
+   </div>
+
+  </div>
+    
+     <script type="module" src="js/firebaseauth.js"></script>
+      <script src="js/signup.js"></script>
+</body>
+</html>

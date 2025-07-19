@@ -15,6 +15,7 @@ div.heading .navbar ul.menu li{
     font-size: 14pt;    
     padding-left: 5rem;
 }
+
 }
    
 
@@ -53,6 +54,8 @@ div.heading .navbar ul.menu li{
     padding-bottom: 20px;
   
 }
+
+
 }
 
 @media(max-width: 700px){
@@ -114,6 +117,9 @@ h1#projects, h1#about{
 .aboutPage ul{
     margin-bottom: 5rem;
 }
+
+
+
 }
 @media(max-width: 617px){
 
@@ -159,6 +165,11 @@ h1#projects, h1#about{
 
     
 }
+
+
+
+
+
 }
 
 @media(max-width: 500px){
@@ -171,6 +182,7 @@ h1#projects, h1#about{
     height: 50vh;
    
 }
+
 }
 
 
